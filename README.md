@@ -2,15 +2,6 @@
 
 Bem-vindo à documentação da API de Consulta de CPF da **Vapo Desenvolvedor**. Esta API foi projetada para fornecer uma forma fácil e segura de consultar informações de CPF.
 
-## Sumário
-
-- [Introdução](#introdução)
-- [Referência da API](#referencia-da-api)
-- [Início Rápido](#inicio-rapido)
-- [Autenticação](#autenticacao)
-- [Exemplo de Uso](#exemplo-de-uso)
-- [Responsabilidade e Termos de Uso](#responsabilidade-e-termos-de-uso)
-
 ---
 
 ## Introdução
