@@ -1,71 +1,70 @@
 ---
-title: Introduction
-description: "Welcome to the home of your new documentation"
+title: "📚 Documentação API de Consulta CPF"
+description: "Bem vindo a documentação do Vapo Manager Tools API 1.0, API profissional para consulta de dados cadastrais através de CPF, fornecendo informações precisas e atualizadas em tempo real."
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.png"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.png"
-  alt="Hero Dark"
-/>
+---
+title: "Inicio"
+description: "Bem vindo a documentação do Vapo Manager Tools API 1.0"
+---
 
-## Setting up
-
-The first step to world-class documentation is setting up your editing environments.
+> ⚠️ Importante: Esta é uma API oficial para consulta de dados reais de CPF. O uso desta API está sujeito a termos de serviço e requer token de acesso válido.
 
 <CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
+  <Card title="Edit Your Docs" icon="pen-to-square" href="https://mintlify.com/docs/quickstart">
+    Configure seus documentos localmente para facilitar o desenvolvimento
   </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
+
+  <Card title="Preview Changes" icon="image" href="https://mintlify.com/docs/development">
     Preview your changes before you push to make sure they're perfect
   </Card>
 </CardGroup>
 
-## Make it yours
+## 🌟 Visão Geral
 
-Update your docs to your brand and add valuable content for the best user conversion.
+Nossa API oferece acesso seguro e rápido a informações cadastrais através de CPF, ideal para:
+✓ Validação de cadastros
+✓ Verificação de identidade
+✓ Automação de processos KYC
+
+## 🔍 Detalhes Técnicos
 
 <CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
+  <Card title="🔍 Detalhes Técnicos" icon="code" href="https://mintlify.com/docs/api-playground/openapi">
+    Endpoint CPF
+
+    Formato da Resposta
+    Endpoint PLACA VEICULAR
+
+    Formato da Resposta
+
+    Endpoint ENDEREÇO
+    Formato da Resposta
   </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
+
+  <Card title="🔐 Sistema de Autenticação" icon="screwdriver-wrench" href="https://mintlify.com/docs/content/components/accordions">
+    **Especificações do Token:**
+
+    * JWT (JSON da Web do Token)&#x20;
+
+    * Limite de 100 consultas por minuto
+
+    * Monitoramento em tempo real de uso
+
+    * Dashboard administrativo para acompanhamento
   </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/content/components/accordions"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
+
+  <Card title="⚡ Limites e Restrições" icon="stars" href="https://mintlify.com/customers">
+    * 100 consultas por minuto por token
+
+    * Máximo de 5 tokens ativos por cliente
+
+    * Tempo máximo de resposta: 5 segundos
+
+    * Tamanho máximo da resposta: 1MB
+
+    * Cache de consultas: 24 horas
+
+
   </Card>
 </CardGroup>
