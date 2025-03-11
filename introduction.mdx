@@ -15,3 +15,34 @@ Nossa API oferece acesso seguro e rápido a informações cadastrais através de
 ✓ Validação de Cadastros
 ✓ Verificação de Identidade
 ✓ Automação de Processos
+
+📚 Como usar a API
+Requisitos
+Token de acesso válido
+CPF válido
+Endpoints
+GET /consulta/{token}/{cpf}: Consulta informações de CPF.
+Exemplo de Uso
+Consultar informações de CPF:
+curl -X GET 'http://localhost:8000/consulta/SEU_TOKEN/12345678901'
+
+Resposta
+status: Código de status da resposta (200, 404, etc.)
+requests: Número de requisições realizadas com o token.
+dados: Informações do CPF consultado (nome, sexo, data de nascimento, etc.).
+🚨 Erros e Exceções
+401 Unauthorized: Token de autenticação inválido ou não fornecido.
+404 Not Found: CPF não encontrado.
+429 Too Many Requests: Limite de requisições atingido.
+500 Internal Server Error: Erro interno do servidor.
+📝 Exemplo de Resposta
+
+{
+  "status": 200,
+  "requests": 1,
+  "dados": {
+    "nome": "João Silva",
+    "sexo": "Masculino",
+    "data_nascimento": "1990-01-01"
+  }
+}
