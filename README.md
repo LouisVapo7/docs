@@ -1,32 +1,37 @@
-# Mintlify Starter Kit
+Vapo Bytes CPF
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Documentação da API
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+Bem-vindo à documentação da API de Consulta de CPF da Vapo Bytes. Esta API foi projetada para fornecer uma forma fácil e segura de consultar informações de CPF.
 
-### Development
+Sumário
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+Introdução
+Referência da API
+Início Rápido
+Autenticação
+Exemplo de Uso
+Introdução
 
-```
-npm i -g mintlify
-```
+A API de Consulta de CPF da Vapo Bytes é uma ferramenta poderosa para consultar informações de CPF de forma rápida e segura. Com esta API, você pode consultar informações de CPF de forma fácil e eficiente.
 
-Run the following command at the root of your documentation (where docs.json is)
+Referência da API
 
-```
-mintlify dev
-```
+Aqui está a referência da API:
 
-### Publishing Changes
+GET /consulta/{token}/{cpf}: Consulta informações do CPF.
+Parâmetros:
+token: Token de acesso.
+cpf: Número do CPF a ser consultado.
+Resposta:
+status: Código de status da resposta (200, 404, etc.).
+requests: Número de requisições realizadas com o token.
+dados: Informações do CPF consultado (nome, sexo, data de nascimento, etc.).
+Início Rápido
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+Para começar a usar a API, você precisará seguir os passos abaixo:
 
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+Obtenha um token de acesso.
+Faça uma requisição GET para o endpoint de consulta de CPF.
+Insira o token de acesso e o CPF que você deseja consultar.
+Receba a resposta com as informações do CPF consultado.
