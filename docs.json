@@ -58,19 +58,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Documentação",
           "href": "https://vapo-bytes-cpf.com/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "Comunidade",
           "href": "https://vapo-bytes-cpf.com/community",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://vapo-bytes-cpf.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -82,7 +77,7 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Suporte",
         "href": "mailto:support@vapo-bytes-cpf.com"
       }
     ],
