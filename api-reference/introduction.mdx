@@ -1,33 +1,35 @@
----
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
----
+title: 'Referência da API' description: 'Documentação dos endpoints da API'
+<Note> Esta seção contém a documentação dos endpoints da API. </Note>
+Endpoints
+Aqui estão os endpoints disponíveis na API:
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+Consultar CPF
+GET /consulta/{token}/{cpf}: Consulta informações do CPF.
+Parâmetros:
+token: Token de acesso.
+cpf: Número do CPF a ser consultado.
+Resposta:
+status: Código de status da resposta (200, 404, etc.).
+requests: Número de requisições realizadas com o token.
+dados: Informações do CPF consultado (nome, sexo, data de nascimento, etc.).
+Autenticação
+Todos os endpoints da API são autenticados usando tokens de acesso.
 
-## Welcome
-
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
+json
+Insert Code
+Run
+Copy code
 "security": [
   {
     "bearerAuth": []
   }
 ]
-```
+Exemplo de Uso
+Aqui está um exemplo de como usar o endpoint de consulta de CPF:
+
+bash
+Insert Code
+Run
+Copy code
+curl -X GET 'http://localhost:8000/consulta/SEU_TOKEN/12345678901'
+Espero que isso ajude! Se você tiver alguma dúvida ou precisar de mais ajuda, por favor não hesite em perguntar.
