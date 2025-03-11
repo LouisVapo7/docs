@@ -1,6 +1,6 @@
-# Vapo Bytes CPF - Documentação da API
+# Vapo Desenvolvedor CPF - Documentação da API
 
-Bem-vindo à documentação da API de Consulta de CPF da **Vapo Bytes**. Esta API foi projetada para fornecer uma forma fácil e segura de consultar informações de CPF.
+Bem-vindo à documentação da API de Consulta de CPF da **Vapo Desenvolvedor**. Esta API foi projetada para fornecer uma forma fácil e segura de consultar informações de CPF.
 
 ## Sumário
 
@@ -14,8 +14,8 @@ Bem-vindo à documentação da API de Consulta de CPF da **Vapo Bytes**. Esta AP
 
 ## Introdução
 
-A API de Consulta de CPF da **Vapo Bytes** é uma ferramenta poderosa para consultar informações de CPF de forma rápida e segura. Com esta API, você pode consultar informações de CPF de forma fácil e eficiente.
+A API de Consulta de CPF da **Vapo Desenvolvedor** é uma ferramenta poderosa para consultar informações de CPF de forma rápida e segura. Com esta API, você pode consultar informações de CPF de forma fácil e eficiente.
 
 ---
 
-Feito com ❤️ pela equipe **Vapo Bytes**.
+Feito com ❤️ pela equipe **Vapo Desenvolvedor**.
